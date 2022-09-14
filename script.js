@@ -56,7 +56,6 @@ const typeController = (e) => {
 };
 
 const validate = (key) => {
-  console.log(questionText[userText.length - 1]);
   if (key === questionText[userText.length - 1]) {
     return true;
   }
