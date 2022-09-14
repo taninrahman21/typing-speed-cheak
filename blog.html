@@ -4,13 +4,36 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blogs</title>
+  <title>Blogs</title> 
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      background: rgb(231, 240, 231);
+      font-family:'Times New Roman', Times, serif;
+    }
+    .blog-section{
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+    }
+    h1{
+      font-size: 2rem;
+    }
+    p{
+      font-size: 1.5rem;
+    }
+  </style>
 </head>
 <body>
-  <section>
-    <article>
-      <h2>Defference between Local Storage and Session Storage?</h2>
+  <section class="blog-section">
+    <article class="blog">
+      <h1>Defference between Local Storage and Session Storage?</h1>
       <p>SessionStorage is similar to localStorage.The difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends. Whenever a document is loaded in a particular tab in the browser, a unique page session gets created and assigned to that particular tab.</p>
+    </article>
+    <article class="blog">
+      <h1>Defference between Global Scope and Block Scope?</h1>
+      <p>Global Scope: A variable when declared outside the block or function scope and are accessible wherever we want. Block Scope: A variable when declared inside the if or switch conditions or inside for or while loops, are accessible within that particular condition or loop.</p>
     </article>
   </section>
 </body>
